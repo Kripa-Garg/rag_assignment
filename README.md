@@ -68,16 +68,6 @@ rag_assignment/
 - **Cohere** — answer generation (`command-a-03-2025`)
 - **PyPDF2 / LangChain text splitters** — document loading and chunking
 
-## Screenshots
-
-**Retrieved passages:**
-
-![App search results](screenshots/task4.png)
-
-**AI-generated answer using Cohere:**
-
-![AI-generated answer](screenshots/task5.png)
-
 ## Future improvements
 
 - Support for more file types (DOCX, HTML)
