@@ -1,10 +1,10 @@
 # DocSage 🧠
 
-A Retrieval-Augmented Generation (RAG) app I built that lets you upload a PDF or TXT document, ask a question, and get back the most relevant passages — plus an AI-generated answer powered by Cohere.
+A Retrieval-Augmented Generation (RAG) app I built that lets you upload a PDF or TXT document, ask a question, and get back the most relevant passages - plus an AI-generated answer powered by Cohere.
 
 ## Overview
 
-DocSage combines semantic search with generative AI to answer questions grounded in your own documents. Instead of just keyword matching, it understands the *meaning* of your question and finds the most relevant parts of the document — then writes you a clear answer using only that context.
+DocSage combines semantic search with generative AI to answer questions grounded in your own documents. Instead of just keyword matching, it understands the *meaning* of your question and finds the most relevant parts of the document - then writes you a clear answer using only that context.
 
 ## How it works
 
