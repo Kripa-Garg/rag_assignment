@@ -8,10 +8,10 @@ DocSage combines semantic search with generative AI to answer questions grounded
 
 ## How it works
 
-1. **Load & chunk** — reads a PDF or TXT file and splits it into overlapping text chunks
-2. **Embed** — converts each chunk into a vector embedding using `sentence-transformers` (`all-MiniLM-L6-v2`)
-3. **Search** — embeds the user's question and finds the top-k most similar chunks using cosine similarity
-4. **Generate** — sends the top chunks + question to Cohere's Command model to produce a natural-language answer
+1. **Load & chunk** : reads a PDF or TXT file and splits it into overlapping text chunks
+2. **Embed** : converts each chunk into a vector embedding using `sentence-transformers` (`all-MiniLM-L6-v2`)
+3. **Search** : embeds the user's question and finds the top-k most similar chunks using cosine similarity
+4. **Generate** : sends the top chunks + question to Cohere's Command model to produce a natural-language answer
 
 ## Project structure
 
@@ -19,10 +19,10 @@ DocSage combines semantic search with generative AI to answer questions grounded
 rag_assignment/
 ├── README.md
 ├── requirements.txt
-├── app.py           # Streamlit interface
+├── app.py            # Streamlit interface
 ├── functions.py      # Core functions: load_and_chunk_document, create_embeddings, search_chunks, generate_answer
-├── notebook.ipynb     # Development/testing notebook
-└── screenshots/       # Screenshots of the app running
+├── notebook.ipynb    # Development/testing notebook
+└── screenshots       # Screenshots of the app running
 ```
 
 ## Setup
