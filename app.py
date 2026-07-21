@@ -13,7 +13,6 @@ from functions import load_and_chunk_document, create_embeddings, search_chunks,
 
 st.set_page_config(page_title="DocSage", page_icon="🧠", layout="wide")
 
-
 def clean_chunk_text(text):
     """Collapses PDF-extraction line breaks and extra spaces into normal flowing text."""
     text = text.replace("\n", " ")
